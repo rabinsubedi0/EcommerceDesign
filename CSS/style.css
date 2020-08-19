@@ -1,0 +1,74 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+/*Mywholenavigationabarcss*/
+#fonticn{
+	color: black;
+}
+
+.ournavramronav{
+	margin-bottom:33px;
+}
+#navbarNav li a{
+	margin-left: 50px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+}
+ul{
+	list-style-type: none;
+}
+form{
+	margin-left: 100px;
+
+}
+#mylgn{
+	margin-left: 30px;
+}
+#mysgn{
+	margin-left:70px;
+}
+/*fornavigationunderline*/
+.cool-link::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: black;
+	transition: width .3s
+
+}
+.cool-link:hover::after{
+	width: 100%;
+	transition: width .3s
+}
+/*pagination Management */
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  margin-left:100px;
+  margin:auto;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+/*footersection*/
+footer{
+	background: black;
+}
+#myicn{
+	margin:auto;
+	margin-right: 50px;
+}
+.myminifooter{
+	background: red;
+}
+#Myiconramricon{
+	margin-top: 30px;
+}
